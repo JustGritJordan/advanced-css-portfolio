@@ -28,7 +28,7 @@ header ul li {
 }
 
 .jgj-image {
-  background-image: url("advanced-css-portfolio/images/Just-Grit-Linkeden.jpg");
+  background-image: url("./images/Just-Grit-Linkeden.jpg");
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -60,61 +60,44 @@ header ul li {
   margin-right: 50px;
   border-radius: 5%;
 }
+.top-half-container {
+  display: flex;
+  justify-content: space-around;
+}
 
 /* 1 */
 .first-line-title {
-  margin-left: 30px;
-  margin-right: 40px;
-  padding: 30px, 30px, 30px, 0;
-  display: flex;
-  margin: 10px;
 }
 
 /* 2 */
 .first-line-title h3 {
-  padding-top: 50px;
-  margin: auto;
   color: #a6359c;
 }
 
 /* 3 */
 .first-img-container {
-  display: flex;
-  margin-left: 200px;
 }
 
 /* 4 */
 .first-line-img-coding {
-  margin-left: 375px;
 }
 /* Second block of information */
 
 /* 1 */
 .second-img-container {
-  margin-left: 10px;
 }
 .second-line-title {
-  margin-left: 30px;
-  margin-right: 40px;
-  padding: 30px, 30px, 30px, 0;
-  display: flex;
-  margin: 10px;
 }
 
 /* 2 */
 .second-line-title h3 {
-  padding-top: 50px;
-  margin: auto;
   color: #a6359c;
 }
 /* 3 */
 .second-line-image {
-  margin-left: 188px;
 }
 
 .second-line-img-gym {
-  margin-left: 375px;
-  display: inline;
 }
 
 footer div {
